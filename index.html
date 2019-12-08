@@ -1,0 +1,272 @@
+<html>
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,user-scalable=0" />
+
+<link rel="stylesheet" type="text/css" href="assets/css/template.css" />
+
+<script type="text/javascript">
+window.onload = function(){
+	document.querySelector(".menuMobile").addEventListener("click", function(){
+		if(document.querySelector(".menu nav ul").style.display == 'flex') {
+			document.querySelector(".menu nav ul").style.display = 'none';
+		} else {
+			document.querySelector(".menu nav ul").style.display = 'flex';
+		}
+	});
+};
+</script>
+
+<title>Clínica Viterbo</title>
+
+</head>
+<body>
+
+<header>
+	<div class="container">
+		<div class="logo">
+			<a href=""><img src="assets/images/logos.jpg" /></a>
+		</div>
+		<div class="menu">
+			<nav>
+				<div class="menuMobile">
+					<div class="mm_line"></div>
+					<div class="mm_line"></div>
+					<div class="mm_line"></div>
+				</div>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Quem somos</a></li>
+					<li><a href="">Serviços</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+
+<section id="banner">
+	<div class="container column">
+		<div class="banner_headline">
+			<h1>Saúde e bem estar</h1>
+			<h2>Para uma vida melhor e mais saudável</h2>
+		</div>
+		<div class="banner_options">
+			<div class="banner1">
+				<div class="banner_title">Profissionais</div>
+				<div class="banner_desc">Capacitados para cada especialidade</div>
+				<a href="">Saiba mais</a>
+			</div>
+			<div class="banner2">
+				<div class="banner_title">Marcação de Consultas</div>
+				<div class="banner_desc">Horários flexíveis</div>
+				<a href="">Saiba mais</a>
+			</div>
+			<div class="banner3">
+				<div class="banner_title">Horários de Funcionamento</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="geral">
+	<div class="container">
+		<section>
+			<div class="widget">
+				<div class="widget_title">
+					<div class="widget_title_text">Últimas notícias</div>
+					<div class="widget_title_bar"></div>
+				</div>
+				<div class="widget_body flex">
+						
+					<article>
+						<a href="">
+							<div class="news_data">
+								<div class="news_posted_at">12 Dez 19</div>
+								<div class="news_comments">5</div>
+							</div>
+							<div class="news_thumbnail">
+								<img src="assets/images/burnout.jpg" />
+							</div>
+							<div class="news_title">
+								Síndrome de Burnout
+							</div>
+							<div class="news_resume">
+								Síndrome de Burnout é um distúrbio psíquico de caráter depressivo, precedido de esgotamento físico e mental intenso, definido por Herbert J. Freudenberger como "(…) um estado de esgotamento físico e mental cuja causa está intimamente ligada à vida profissional"...
+							</div>
+						</a>
+					</article>
+
+					<article>
+						<a href="">
+							<div class="news_data">
+								<div class="news_posted_at">01 Dez 12</div>
+								<div class="news_comments">8</div>
+							</div>
+							<div class="news_thumbnail">
+								<img src="assets/images/acunputura.jpg" />
+							</div>
+							<div class="news_title">
+								Acupuntura contra o estresse
+							</div>
+							<div class="news_resume">
+								Uma vez que o estresse desencadeia sintomas como insônia, dor de estômago, falta de concentração e fadiga crônica, por exemplo, o acupunturista vai analisar cada indivíduo e aplicar um tratamento específico...
+							</div>
+						</a>
+					</article>
+
+					<article>
+						<a href="">
+							<div class="news_data">
+								<div class="news_posted_at">18 Dez 19</div>
+								<div class="news_comments">7</div>
+							</div>
+							<div class="news_thumbnail">
+								<img src="assets/images/massoterapia.jpg" />
+							</div>
+							<div class="news_title">
+								Benefícios da Massoterapia
+							</div>
+							<div class="news_resume">
+								Para quem acredita que a massagem serve apenas para aliviar momentaneamente a dor nas costas, uma boa notícia: a técnica milenar é usada para ajudar no tratamento de vários problemas físicos e psicológicos que afetam diretamente a saúde.... 
+							</div>
+						</a>
+					</article>
+
+					<article>
+						<a href="">
+							<div class="news_data">
+								<div class="news_posted_at">28 Dez 19</div>
+								<div class="news_comments">9</div>
+							</div>
+							<div class="news_thumbnail">
+								<img src="assets/images/pilates.jpg" />
+							</div>
+							<div class="news_title">
+								Desça do Salto!
+							</div>
+							<div class="news_resume">
+								Você sabia que o mau posicionamento dos pés pode afetar também o funcionamento dos seus intestinos e até sua capacidade respiratória? ...
+							</div>
+						</a>
+					</article>
+
+				</div>
+			</div>
+		</section>
+		<aside>
+			<div class="widget">
+				<div class="widget_title">
+					<div class="widget_title_text">Depoimentos</div>
+					<div class="widget_title_bar"></div>
+				</div>
+				<div class="widget_body_r">
+					"Possuia um problema crônico na coluno e graças ao atendimento da equipe da Viterbo agora eu tenho qualidade de vida" - Maria José
+				</div>
+				<div class="widget_body_r">
+					"O atendimento da equipe Viterbo é excelente, minha qualidade de vida está em outro nível." João Pedro
+				</div>
+			</div>
+			<div class="widget">
+				<div class="widget_title">
+					<div class="widget_title_text">Álbum de fotos</div>
+					<div class="widget_title_bar"></div>
+				</div>
+				<div class="widget_body">
+					<img src="assets/images/10.png" />
+					<img src="assets/images/10.png" />
+					<img src="assets/images/20.jpg" />
+					<img src="assets/images/20.jpg" />
+				</div>
+			</div>
+		</aside>
+	</div>
+</section>
+
+<footer>
+	<div class="container flexColumn">
+		<div class="footer_menu">
+			<div class="fm_1">
+				<a href="">
+					...
+				</a>
+			</div>
+			<div class="fm_2">
+				<a href="">
+					...
+				</a>
+			</div>
+			<div class="fm_3">
+				<a href="">
+					...
+				</a>
+			</div>
+		</div>
+
+		<div class="footer_area">
+			<div class="footer_areaitem">
+				<div class="widget">
+					<div class="widget_title">
+						<div class="widget_title_text">Unidades</div>
+						<div class="widget_title_bar"></div>
+					</div>
+					<div class="widget_body">
+						Boulevard Business <br>
+						Av. ACM, nº987 - Caminho das Árvores 
+					</div>
+				</div>
+			</div>
+			<div class="footer_areaitem">
+				<div class="widget">
+					<div class="widget_title">
+						<div class="widget_title_text">Últimas postagens</div>
+						<div class="widget_title_bar"></div>
+					</div>
+					<div class="widget_body">
+						Desça do Salto!
+					</div>
+				</div>
+			</div>
+			<div class="footer_areaitem">
+				<div class="widget">
+					<div class="widget_title">
+						<div class="widget_title_text">Redes Sociais</div>
+						<div class="widget_title_bar"></div>
+					</div>
+					<div class="widget_body">
+						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDeison-Santos-351602188833580%2F&tabs&width=340&height=154&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="258" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer_copy">
+			Coyright - Todos os direitos reservados
+		</div>
+
+	</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
